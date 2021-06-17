@@ -20,7 +20,7 @@ const Cajero = (a) =>{
         else if (b == 0) {
             let c = Math.trunc(a/500);
             let d = a%500;
-            let e;
+            var e;
             if(c>0 && c <= Quinientos){ 
                 e = 0;
                 console.log(`El cajero le dará ${c} billetes de $ 500`);
@@ -62,6 +62,7 @@ const Cajero = (a) =>{
                             console.log(`El cajero le dará ${c} billetes de $ 50`);
                         }
                         else if(c > Cincuenta){
+                            e = (d+e) - (Cincuenta * 50);
                             console.log(`El cajero le dará ${Cincuenta} billetes de $ 50`);
                         }
                             
