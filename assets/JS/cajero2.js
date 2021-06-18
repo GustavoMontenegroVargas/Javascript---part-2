@@ -14,33 +14,35 @@ const Cajero = (a) =>{
     }
     else if (a >= 50 && a<= Total){
        
-        let b = a % 50;  
+        let b = a % 50;  /* 105/50 =  c- 2  r - 5 */
         if (b != 0) {
             alert("Cantidad no válida. Por favor, ingrese mùltiplos de 50.")
         }
 
         else if (b == 0) {
+
             var c;
             var d;
             var e;
+            console.log(`La cantidad solicitada es ${a}`);
 
-            c = Math.trunc(a/500);
-            d = a%500;
+            c = Math.trunc(a/500); /* a = 11,000 -- c = 22 */
+            d = a%500; /* a = 11,000 -- d = 0 */
 
-            if(c>=0 && c <= Quinientos){ 
+            if(c>=0 && c <= Quinientos /* 20 */){ /* c > 0 */
                 e = 0;
                 if (c>0){
-                    console.log(`El cajero le dará ${c} billetes de $ 500`);
+                    console.log(`El cajero le dará ${c} billetes de $ 500`);/* 20 */
                 }
             } 
             else if (c>Quinientos){
-                e = a - (Quinientos * 500);
+                e = a - (Quinientos * 500);/* 11,000 - 20*500 = 11,000 - 10,000 = 1,000 */
                 console.log(`El cajero le dará ${Quinientos} billetes de $ 500`);
             }   
 
             
-            c = Math.trunc((d + e)/200);
-            d = (d + e)%200;
+            c = Math.trunc((d + e)/200); /* 0 + 1,000 */
+            d = (d + e)%200; /* 0 + 1000 */
                 
             if (c>=0 && c<= Doscientos){
                 e = 0;
@@ -89,5 +91,5 @@ const Cajero = (a) =>{
 }
 
 var Ingreso = parseInt(prompt("Ingrese el monto que quiere retirar"));
-
 Cajero(Ingreso);
+
