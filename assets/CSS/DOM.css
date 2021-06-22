@@ -1,0 +1,7 @@
+/* Podemos definir una clase en CSS y luego
+agregarla a un elemento en JS sin tener que 
+modificar el HTML */
+
+.red{
+    color:red;
+}
