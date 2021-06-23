@@ -25,6 +25,7 @@ const Cajero = (a) =>{
             var d;
             var e;
             console.log(`La cantidad solicitada es ${a}`);
+            Retiro.textContent = `La cantidad solicitada es ${a}`;
 
             c = Math.trunc(a/500); /* a = 11,000 -- c = 22 */
             d = a%500; /* a = 11,000 -- d = 0 */
@@ -33,11 +34,13 @@ const Cajero = (a) =>{
                 e = 0;
                 if (c>0){
                     console.log(`El cajero le dará ${c} billetes de $ 500`);/* 20 */
+                    Retiro500.textContent = `El cajero le dará ${c} billetes de $ 500`;
                 }
             } 
             else if (c>Quinientos){
                 e = a - (Quinientos * 500);/* 11,000 - 20*500 = 11,000 - 10,000 = 1,000 */
                 console.log(`El cajero le dará ${Quinientos} billetes de $ 500`);
+                Retiro500.textContent = `El cajero le dará ${Quinientos} billetes de $ 500`;
             }   
 
             
@@ -48,11 +51,13 @@ const Cajero = (a) =>{
                 e = 0;
                 if (c>0){
                     console.log(`El cajero le dará ${c} billetes de $ 200`);
+                    Retiro200.textContent = `El cajero le dará ${c} billetes de $ 200`;
                 }
             }
             else if (c>Doscientos){
                 e = (d+e) - (Doscientos * 200);
                 console.log(`El cajero le dará ${Doscientos} billetes de $ 200`);
+                Retiro200.textContent = `El cajero le dará ${Doscientos} billetes de $ 200`;
             }
 
             c = Math.trunc((d+e)/100);
@@ -62,11 +67,13 @@ const Cajero = (a) =>{
                 e = 0;
                 if (c>0){
                     console.log(`El cajero le dará ${c} billetes de $ 100`);
+                    Retiro100.textContent = `El cajero le dará ${c} billetes de $ 100`;
                 }
             }
             else if (c > Cien){
                 e = (d+e) - (Cien * 100);
                 console.log(`El cajero le dará ${Cien} billetes de $ 100`);
+                Retiro100.textContent = `El cajero le dará ${Cien} billetes de $ 100`;
             }
         
             c = Math.trunc((d+e)/50);
@@ -76,11 +83,13 @@ const Cajero = (a) =>{
                 e = 0;
                 if (c>0){
                     console.log(`El cajero le dará ${c} billetes de $ 50`);
+                    Retiro50.textContent = `El cajero le dará ${c} billetes de $ 50`;
                 }
             }
             else if(c > Cincuenta){
                 e = (d+e) - (Cincuenta * 50);
                 console.log(`El cajero le dará ${Cincuenta} billetes de $ 50`);
+                Retiro50.textContent = `El cajero le dará ${Cincuenta} billetes de $ 50`;
             }
                  
         }
@@ -90,6 +99,23 @@ const Cajero = (a) =>{
     }
 }
 
-var Ingreso = parseInt(prompt("Ingrese el monto que quiere retirar"));
-Cajero(Ingreso);
+let Ingreso = document.querySelector('#cantidad');
+let button_retirar = document.querySelector('#Retirar');
+let Retiro = document.querySelector('#Retiro');
+let Retiro500 = document.querySelector('#Retiro500');
+let Retiro200 = document.querySelector('#Retiro200');
+let Retiro100 = document.querySelector('#Retiro100');
+let Retiro50 = document.querySelector('#Retiro50');
+
+button_retirar.addEventListener('click',function(){
+    Retiro.textContent = "";
+    Retiro500.textContent = "";
+    Retiro200.textContent = "";
+    Retiro100.textContent = "";
+    Retiro50.textContent = "";
+    
+    Cajero(parseInt(Ingreso.value));
+    
+})
+
 
