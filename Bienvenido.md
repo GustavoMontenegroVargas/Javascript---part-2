@@ -15,6 +15,7 @@ que necesites en billetes de 500, si estos se acaban, tendrá que ser sustuido p
 para que completen la cantidad faltante. 
 
 Da CLICK al enlace para verlo en su etapa sin CSS ni Bootstrap: https://gustavomontenegrovargas.github.io/Javascript---part-2/
+
 Da ClICK al enlace para ver el código: https://github.com/GustavoMontenegroVargas/Javascript---part-2/blob/main/assets/JS/cajero2.js
 
 --------------------------------------------------------------------------------------------------------------------------------------------
