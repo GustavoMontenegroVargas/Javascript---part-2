@@ -14,10 +14,15 @@ Al ingresar directamente al Link, encontarás el CHALLENGE de ejercicios JavaScr
 
 Si quieres ver otros ejercicios funcionando, te dejo los links aquí. 
 
+
 Ejemplo del cajero: https://gustavomontenegrovargas.github.io/Javascript---part-2/
+
 Ejemplo de Ciclo: https://gustavomontenegrovargas.github.io/Javascript---part-2/Ciclo.html
+
 Ejercicio de DOM: https://gustavomontenegrovargas.github.io/Javascript---part-2/DOM.html
+
 Ejercicio Paquetes: https://gustavomontenegrovargas.github.io/Javascript---part-2/Paquetes.html
+
 Ejercicio de Suma: https://gustavomontenegrovargas.github.io/Javascript---part-2/Suma.html
 
 
