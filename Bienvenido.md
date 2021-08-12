@@ -9,7 +9,7 @@ Este cajero tiene una cantidad determinada de billetes de las denominaciones má
 
 20 de Quinientos, 20 de Doscientos, 20 de Cien & 20 de Cincuenta.
 
-La idea es que marque erroes cuando las combinaciones no son suficientes, o cuando la solicitud está
+La idea es que marque errores cuando las combinaciones no son suficientes, o cuando la solicitud está
 fuera del sentido común. La idea interesante detrás de este cajero es que aunque puede darte la cantidad
 que necesites en billetes de 500, si estos se acaban, tendrá que ser sustuido por la siguiente denominación
 para que completen la cantidad faltante. 
