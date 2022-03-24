@@ -1,6 +1,6 @@
 # Primero una pequeña muestra - Página: Tienda de regalos en línea
 
-En este apartado, coloco un ejemplo, responsivo, creado con HTML, CSS & Boostrap 5. 
+En este apartado coloco un ejemplo responsivo, creado con: HTML, CSS & Boostrap 5. 
 
 Para verlo, da clic en este enlance: https://gustavomontenegrovargas.github.io/Pruebas_Documentales/FrontEnd_Assignments/TD/Tienda_de_regalos.html
 
