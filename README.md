@@ -4,6 +4,8 @@ En este apartado, coloco un ejemplo, responsivo, creado con HTML, CSS & Boostrap
 
 Para verlo, da clic en este enlance: https://gustavomontenegrovargas.github.io/Pruebas_Documentales/FrontEnd_Assignments/TD/Tienda_de_regalos.html
 
+Esta página es una maquetación, donde los enlaces son 'muertos', pero todo es funcional.
+
 --------------------------------------------------------------------------------------------------------------------------------------------
 # Ahora sí, el repositorio.
 
