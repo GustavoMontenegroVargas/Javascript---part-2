@@ -1,4 +1,4 @@
-# Primero una muestra - Página de Tienda en Línea
+# Primero una muestra - Página: Tienda de regalos en línea
 
 En este apartado, coloco un ejemplo, responsivo, creado con HTML, CSS & Boostrap 5. 
 
