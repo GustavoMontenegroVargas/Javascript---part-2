@@ -7,6 +7,7 @@ Para verlo, da clic en este enlance: https://gustavomontenegrovargas.github.io/P
 Esta página es una maquetación, donde los enlaces son 'muertos', pero todo es funcional.
 
 ¿Cuál es el objetivo?
+
 Colocar de manera ordenada y atractiva cada elemento que se pueda promocionar en este template. Agregando un deslizador de imágenes en la parte principal y que sea un diseño que mantenga la estructura usable a pesar del tamaño de la pantalla.
 
 --------------------------------------------------------------------------------------------------------------------------------------------
