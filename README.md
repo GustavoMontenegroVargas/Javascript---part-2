@@ -14,7 +14,7 @@ Colocar de manera ordenada y atractiva cada elemento que se pueda promocionar en
 
 #### Code Masters
 
-Para verlo, da clic en este enlance: https://gustavomontenegrovargas.github.io/Pruebas_Documentales/FrontEnd_Assignments/Code_Masters/Code_Masters.html
+Para verlo, da clic en este enlance: https://gustavomontenegrovargas.github.io/Pruebas_Documentales/Javascript--part-2/Code_Masters/Code_Masters.html
 
 Es un diseño basado en la página anterior. Pero con un diseño optimizado y con los enlaces funcionales.
 
